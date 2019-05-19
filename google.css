@@ -1,0 +1,89 @@
+*{
+	color: rgb(50,50,50);
+	font-family: sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+
+}
+
+a{
+	text-decoration: none;
+}
+a:link{
+	color: purple;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+nav p {
+
+	display: inline-block;
+	padding: 10px;
+	vertical-align: middle;
+	text-align: right;
+	position: relative;
+	left: 85%;
+}
+
+ #avatar{
+	border-radius: 9px;
+
+}
+.seconddiv{
+	text-align: center;
+	padding-top: 10em
+}
+
+.seconddiv a {
+	color: blue;
+	padding: 6px;
+	
+}
+
+input{
+	border-radius: 17px;
+	width: 500px;
+	height: 40px;
+	border-width: thin;
+}
+
+button{
+	background: rgba(240,240,240,0.8);
+	padding: 0.5em;
+	font-size: 15px;
+	margin: 1.2em;
+	border: none;
+}
+
+footer{
+   position: absolute;
+   bottom: 0px;
+   width: 100%;
+}
+footer p, .thirddiv{
+	background: rgba(240,240,240,0.8);
+	padding: 1.1em;
+	border-color: rgba(200,200,200,0.5);
+	border-style: solid;
+	border-width: thin;
+}
+
+.thirddiv{
+	word-spacing: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.thirddiv p{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+/*
+.thirddiv a: nth-last-child (3){
+	text-align: right;
+}*/
+
+
+
